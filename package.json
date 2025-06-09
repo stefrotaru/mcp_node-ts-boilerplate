@@ -1,0 +1,27 @@
+{
+  "name": "mcp-server-template-ts",
+  "version": "1.0.0",
+  "description": "A TypeScript MCP server template",
+  "type": "module",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index.js",
+    "dev": "tsc && node build/index.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf build"
+  },
+  "keywords": ["mcp", "server", "typescript"],
+  "author": "Stefan Rotaru",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
